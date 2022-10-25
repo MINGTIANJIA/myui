@@ -1,0 +1,1 @@
+<view><block wx:for="{{goodslist}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="list_box"><view><image src="{{item.goods_big_logo||defaultimg}}" mode></image></view><view class="right_list"><view>{{''+item.goods_name+''}}</view><text>{{"$"+item.goods_price}}</text></view></view></block></view>
